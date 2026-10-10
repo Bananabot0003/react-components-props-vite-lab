@@ -1,3 +1,6 @@
+// Takes the posts array and displays each post
+// using the Article component.
+
 import Article from "./Article";
 
 function ArticleList({ posts }) {

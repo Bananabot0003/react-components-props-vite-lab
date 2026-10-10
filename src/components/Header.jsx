@@ -1,3 +1,5 @@
+// Displays the blog name passed from App.jsx using props.
+
 function Header({ name }) {
   return (
     <header>

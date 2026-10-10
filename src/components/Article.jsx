@@ -1,3 +1,6 @@
+// Displays the title, date, and preview of a blog post.
+// Uses a default date if no date is provided.
+
 function Article({ title, date = "January 1, 1970", preview }) {
     return (
         <article>

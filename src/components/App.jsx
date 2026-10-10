@@ -1,3 +1,6 @@
+// Main component that connects the blog components.
+// Passes blog data to the components using props.
+
 import React from "react";
 import blogData from "../data/blog";
 import Header from "./Header";

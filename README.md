@@ -92,3 +92,36 @@ If the article takes 30 minutes or longer to read:
 
 There aren't tests for this feature, so you'll have to rely on running the code
 in the browser to see if your implementation works!
+
+
+
+## My React Blog Project
+
+This project is a simple blog built using React and Vite.
+The goal was to practice creating components, using props,
+and displaying blog posts from an array of data.
+
+## How to Run the Project
+
+1. Open the project in VS Code.
+2. Open the terminal.
+3. Run `npm install` to install dependencies.
+4. Run `npm run dev` to start the website.
+5. Open the localhost link shown in the terminal.
+
+## Components
+
+- App.jsx: Main component that connects everything together.
+- Header.jsx: Displays the blog name.
+- About.jsx: Displays the blog logo and description.
+- Article.jsx: Displays the title, date, and preview of a post.
+- ArticleList.jsx: Uses map() to display each blog post.
+
+## Testing
+
+I used `npm test` to test my React components.
+All tests passed.
+
+## blog screenshot
+
+![My react Blog](images/Screenshot%202026-10-10%20at%2017.52.59.png)
